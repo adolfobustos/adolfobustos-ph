@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adolfo Bustos</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- BOXICONS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Link plyr -->
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body class="background">
+    <!-- CONTENEDOR -->
+    <div class="contenedor">
+      <!-- PH -->
+      <div class="ph">
+        <!-- 02 Freelancer -->
+        <div>
+          <!-- TRABAJO -->
+          <hgroup>
+            <h4 class="animated bounceInLeft">
+              Freelancer: Mayo 2024 | Presente
+            </h4>
+            <h4>
+              Trabajar como freelancer en diseño gráfico y edición de video para
+              "Silvina A." ha sido una experiencia gratificante que me ha
+              permitido explorar mi creatividad y habilidades técnicas. Silvina,
+              profesora nacional de educación física y especialista en montaña,
+              así como instructora de ski y dueña de la marca "Patagonia E
+              Motion" en Bariloche, confía en mí para editar publicaciones
+              visuales para sus redes sociales, especialmente Instagram. Este
+              rol me ha enseñado a comunicar de manera efectiva su visión y
+              esencia de marca a través de imágenes y videos cautivadores.
+            </h4>
+          </hgroup>
+          <!-- Freelancer - VIDEO -->
+          <div class="card">
+            <video class="vertical" controls class="plyr">
+              <source src="img/ph/02 Freelancer/01.mp4" type="video/mp4" />
+            </video>
+            <video class="vertical" controls class="plyr">
+              <source src="img/ph/02 Freelancer/02.mp4" type="video/mp4" />
+            </video>
+            <video class="vertical" controls class="plyr">
+              <source src="img/ph/02 Freelancer/03.mp4" type="video/mp4" />
+            </video>
+            <video class="vertical" controls class="plyr">
+              <source src="img/ph/02 Freelancer/04.mp4" type="video/mp4" />
+            </video>
+            <video class="vertical" controls class="plyr">
+              <source src="img/ph/02 Freelancer/06.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- BACK -->
+    <div class="back">
+      <a href="index.html">
+        <i class="bi bi-arrow-left-circle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            fill="white"
+            class="bi bi-arrow-left-circle"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"
+            />
+          </svg>
+        </i>
+      </a>
+    </div>
+    <!-- Script plyr -->
+    <script src="https://cdn.plyr.io/3.6.8/plyr.js"></script>
+    <script>
+      const players = Array.from(document.querySelectorAll(".plyr"));
+      players.forEach((player) => new Plyr(player));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adolfo Bustos</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- BOXICONS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Link plyr -->
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body class="background">
+    <!-- CONTENEDOR -->
+    <div class="contenedor">
+      <!-- PH -->
+      <div class="ph">
+        <!-- 05 Portrait -->
+        <div>
+          <!-- TRABAJO -->
+          <hgroup>
+            <h4 class="animated bounceInLeft">Portrait</h4>
+            <h4>
+              Portrait photography is an exciting challenge that allows me to
+              convey the essence and personality of each subject. I aim to
+              capture not only the external appearance but also the emotions and
+              stories that each person carries.
+            </h4>
+          </hgroup>
+          <!-- Portrait - IMG -->
+          <div class="card">
+            <div class="carrete">
+              <img class="zoom" src="img/ph/05 Portrait/04.jpg" alt="image" />
+              <img class="zoom" src="img/ph/05 Portrait/05.jpg" alt="image" />
+            </div>
+            <div class="carrete">
+              <img class="zoom" src="img/ph/05 Portrait/03.jpg" alt="image" />
+              <img class="zoom" src="img/ph/05 Portrait/02.jpg" alt="image" />
+            </div>
+            <div class="carrete">
+              <img class="zoom" src="img/ph/05 Portrait/06.jpg" alt="image" />
+              <img class="zoom" src="img/ph/05 Portrait/07.jpg" alt="image" />
+              <img
+                class="zoom"
+                src="img/ph/05 Portrait/08 Portrait.jpg"
+                alt="image"
+              />
+            </div>
+            <!-- Portrait - VIDEO -->
+            <div class="carrete">
+              <video class="horizontal" controls class="plyr">
+                <source src="img/ph/05 Portrait/01.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- BACK -->
+    <div class="back">
+      <a href="home.html">
+        <i class="bi bi-arrow-left-circle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            fill="white"
+            class="bi bi-arrow-left-circle"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"
+            />
+          </svg>
+        </i>
+      </a>
+    </div>
+    <!-- Script plyr -->
+    <script src="https://cdn.plyr.io/3.6.8/plyr.js"></script>
+    <script>
+      const players = Array.from(document.querySelectorAll(".plyr"));
+      players.forEach((player) => new Plyr(player));
+    </script>
+  </body>
+</html>
